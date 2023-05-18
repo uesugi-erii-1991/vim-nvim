@@ -1,5 +1,6 @@
 "  设置leder引导键
 let mapleader = "\<Space>"
+set mouse=a
 
 if exists('g:vscode')
 
@@ -13,6 +14,7 @@ if exists('g:vscode')
     " VSCode extension 以vscode插件加载时的加载项
 else
     " ordinary Neovim 正常加载项
+    "autocmd InsertLeave * !im-select.exe 1033
 endif
 
 
